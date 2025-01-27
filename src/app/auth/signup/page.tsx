@@ -27,7 +27,7 @@ export default function SignupPage() {
     });
 
     if (response.ok) {
-      router.push("/signin");
+      router.push("/auth/signin");
     } else {
       alert("Signup failed");
     }
