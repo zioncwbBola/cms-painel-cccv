@@ -9,7 +9,7 @@ export default function SignIn() {
 
   const handleSignIn = async (e: React.FormEvent) => {
     e.preventDefault();
-    const result = await signIn("credentials", {
+    const result = await signIn("Credentials", {
       email,
       password,
       redirect: true,
