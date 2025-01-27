@@ -57,6 +57,9 @@ export default async function RootLayout({
 
   return (
     <html lang="pt-BR">
+      <head>
+      <meta name="google-site-verification" content="f7z7Q-Fme5-I-gy1j0k16sszIaSx8CTDcsxgVWRqKxs" />
+      </head>
       <body className="min-h-screen bg-gray-100">
         <header className="bg-gray-800 text-white p-4">
           <div className="container mx-auto flex items-center justify-between">
